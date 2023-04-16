@@ -20,7 +20,7 @@ iptables -P FORWARD ACCEPT
 iptables -P OUTPUT ACCEPT
 echo "auto vlan1102" >> /etc/network/interfaces
 echo "iface vlan1002 inet static" >> /etc/network/interfaces
-echo "address 192.168.175.189" >> /etc/network/interfaces
+echo "address 192.168.176.8" >> /etc/network/interfaces
 echo "netmask 255.255.252.0" >> /etc/network/interfaces
 echo "vlan_raw_device enp0s3" >> /etc/network/interfaces
 echo "Rebooting"
